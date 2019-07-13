@@ -1,0 +1,10 @@
+name,path,url,branch
+vim-vundle,.vim/bundle/Vundle.vim,https://github.com/VundleVim/Vundle.vim,master
+vim-ctrlp,.vim/bundle/ctrlp.vim,https://github.com/ctrlpvim/ctrlp.vim.git,master
+vim-nerdtree,.vim/bundle/nerdtree,https://github.com/scrooloose/nerdtree.git,master
+vim-syntastic,.vim/bundle/syntastic,https://github.com/scrooloose/syntastic.git,master
+vim-tabular,.vim/bundle/tabular,https://github.com/godlygeek/tabular.git,master
+vim-airline,.vim/bundle/vim-airline,https://github.com/vim-airline/vim-airline.git,master
+vim-colors-solarized,.vim/bundle/vim-colors-solarized,https://github.com/altercation/vim-colors-solarized.git,master
+vim-fugitive,.vim/bundle/vim-fugitive,https://github.com/tpope/vim-fugitive.git,master
+vim-surround,.vim/bundle/vim-surround,https://github.com/tpope/vim-surround.git,master
