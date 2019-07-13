@@ -28,7 +28,7 @@ undwht='\e[4;37m' # White
  
 bakblk='\e[40m'   # Black - Background
 bakred='\e[41m'   # Red
-badgrn='\e[42m'   # Green
+bakgrn='\e[42m'   # Green
 bakylw='\e[43m'   # Yellow
 bakblu='\e[44m'   # Blue
 bakpur='\e[45m'   # Purple
