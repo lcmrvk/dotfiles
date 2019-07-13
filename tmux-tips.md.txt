@@ -1,0 +1,41 @@
+## These are the commands with the default prefix "CTRL+b"
+
+Split panes vertically:
+CTRL+b %
+
+Split panes horizontally:
+CTRL+b "
+
+Show pane numbers:
+CTRL+b q
+
+Change panes:
+CTRL+b <arrow-key>
+
+Close pane:
+CTRL+d
+
+Toggle current pane into full screen:
+CTRL+b z
+
+Add new window:
+CTRL+b c
+
+List open windows:
+CTRL+b w
+
+Switch between windows:
+CTRL+b <window-number>
+
+Detach from session (e.g. close tmux):
+CTRL+b d
+
+List available commands:
+CTRL+b ?
+
+Show session:
+tmux ls
+
+Show current session:
+CTRL+b s
+
