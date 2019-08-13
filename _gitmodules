@@ -8,4 +8,4 @@ vim-airline,.vim/bundle/vim-airline,https://github.com/vim-airline/vim-airline.g
 vim-colors-solarized,.vim/bundle/vim-colors-solarized,https://github.com/altercation/vim-colors-solarized.git,master
 vim-fugitive,.vim/bundle/vim-fugitive,https://github.com/tpope/vim-fugitive.git,master
 vim-surround,.vim/bundle/vim-surround,https://github.com/tpope/vim-surround.git,master
-vim-nord-vim,.vim/bundle/nord-vim,https://github.com/rcticicestudio/nord-vim,master
+vim-nord-vim,.vim/bundle/nord-vim,https://github.com/arcticicestudio/nord-vim,master
