@@ -30,3 +30,7 @@
 	path = .vim/bundle/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
 	branch = master
+[submodule "vim-nord-vim"]
+	path = .vim/bundle/nord-vim
+	url = https://github.com/rcticicestudio/nord-vim
+	branch = master
