@@ -1,7 +1,8 @@
 # If file exists, load in the file, where colors are defined
-if test -r ~/.term_colors.sh;
-    then source ~/.term_colors.sh;
-    else echo "Couldn't file the file `.term_colors.sh`";
+if [[ -e ~/.term_colors.sh && -r ~/.term_colors.sh ]]; then
+    source ~/.term_colors.sh;
+else
+    echo "Couldn't file the file '.term_colors.sh'";
 fi
 
 # What appears in the command line prompt
