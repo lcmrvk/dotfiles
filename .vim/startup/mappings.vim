@@ -1,12 +1,9 @@
-" Map ESC so, that it saves the current file every time I enter normal mode
-nmap <Esc> <Esc>:w<CR>
-
 " Unmap/remap the arrow keys (testing setup with arrow keys enabled)
-no <down> j
-no <up> k
-no <left> h
-no <right> l
-"
+" nmap <Down> j
+" nmap <Up> k
+" nmap <Left> h
+" nmap <Right> l
+
 "no <down> ddp
 "no <up> ddkP
 "no <left> <Nop>
@@ -24,20 +21,20 @@ no <right> l
 
 
 " Unmap mouse scrolling
-nmap <ScrollWheelUp> <nop>
-nmap <ScrollWheelDown> <nop>
-nmap <ScrollWheelLeft> <nop>
-nmap <ScrollWheelRight> <nop>
-
-nmap <C-ScrollWheelUp> <nop>
-nmap <C-ScrollWheelDown> <nop>
-nmap <C-ScrollWheelLeft> <nop>
-nmap <C-ScrollWheelRight> <nop>
-
-nmap <S-ScrollWheelUp> <nop>
-nmap <S-ScrollWheelDown> <nop>
-nmap <S-ScrollWheelLeft> <nop>
-nmap <S-ScrollWheelRight> <nop>
+" nmap <ScrollWheelUp> <nop>
+" nmap <ScrollWheelDown> <nop>
+" nmap <ScrollWheelLeft> <nop>
+" nmap <ScrollWheelRight> <nop>
+" 
+" nmap <C-ScrollWheelUp> <nop>
+" nmap <C-ScrollWheelDown> <nop>
+" nmap <C-ScrollWheelLeft> <nop>
+" nmap <C-ScrollWheelRight> <nop>
+" 
+" nmap <S-ScrollWheelUp> <nop>
+" nmap <S-ScrollWheelDown> <nop>
+" nmap <S-ScrollWheelLeft> <nop>
+" nmap <S-ScrollWheelRight> <nop>
 
 
 " quick pairs

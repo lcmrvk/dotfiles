@@ -1,5 +1,3 @@
-syntax enable
-"syntax on
 
 
 " Set mouse so that it doesn't scroll the cursor but the screen
@@ -14,6 +12,12 @@ set showcmd
 set synmaxcol=0
 set term=screen-256color
 
+" Code folding
+" check ~/.vim/docs/commands.txt
+set foldmethod=syntax
+set foldnestmax=3
+set nofoldenable
+set foldlevel=2
 
 " Useful
 set relativenumber
@@ -34,7 +38,7 @@ set softtabstop=4
 set shiftwidth=4
 set shiftround
 set expandtab
-set list
+set nolist
 set listchars=eol:¬,trail:·,tab:>\
 highlight  NonText ctermfg=darkgrey guifg=darkgray
 highlight  SpecialKey ctermfg=darkgrey guifg=darkgray

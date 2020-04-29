@@ -1,7 +1,6 @@
 set nocompatible         " be iMproved, required
 filetype off             " required
 
-scriptencoding utf-8
 set encoding=utf-8
 
 " set the runtime path to include Vundle and initialize
@@ -16,13 +15,13 @@ Plugin 'VundleVim/Vundle.vim'
 
 Plugin 'scrooloose/nerdtree'
 Plugin 'vim-airline/vim-airline'
-Plugin 'ctrlpvim/ctrlp.vim' 
 Plugin 'tpope/vim-surround'
-Plugin 'godlygeek/tabular'
 Plugin 'scrooloose/syntastic'
 Plugin 'tpope/vim-fugitive'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'rcticicestudio/nord-vim'
+Plugin 'ctrlpvim/ctrlp.vim' 
+Plugin 'godlygeek/tabular'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required

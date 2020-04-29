@@ -52,6 +52,9 @@ alias py3='python3'
 # grep
 alias grep='grep --color'
 
+# rm related
+alias rmfr='rm -rf'
+
 # git related
 alias gs='git status'
 alias gl='git log'
@@ -68,3 +71,6 @@ alias xc='xclip'
 alias d-c='docker-compose'
 alias d-e='docker exec'
 alias d='docker'
+
+# ranger shortcut
+alias rr='ranger --choosedir=$HOME/.rangerdir; LASTDIR=`cat $HOME/.rangerdir`; cd "$LASTDIR"'

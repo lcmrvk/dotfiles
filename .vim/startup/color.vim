@@ -3,7 +3,6 @@
 "color peaksea
 "color skittles_dark
 "color tango " this one is nice
-"color wombat
 "color wombat256
 "color xterm16
 "color corporation
@@ -13,8 +12,9 @@
 "color vim-material
 "colorscheme professional
 "color rbw
+color wombat
 
 " SOLARIZED PLUGIN
 "set background=light
-set background=dark
+" set background=dark
 "colorscheme solarized
