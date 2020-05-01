@@ -1,41 +1,6 @@
-" Unmap/remap the arrow keys (testing setup with arrow keys enabled)
-" nmap <Down> j
-" nmap <Up> k
-" nmap <Left> h
-" nmap <Right> l
-
-"no <down> ddp
-"no <up> ddkP
-"no <left> <Nop>
-"no <right> <Nop>
-"
-"ino <down> <Nop>
-"ino <up> <Nop>
-"ino <left> <Nop>
-"ino <right> <Nop>
-"
-"vno <up> <Nop>
-"vno <down> <Nop>
-"vno <left> <Nop>
-"vno <right> <Nop>
-
-
-" Unmap mouse scrolling
-" nmap <ScrollWheelUp> <nop>
-" nmap <ScrollWheelDown> <nop>
-" nmap <ScrollWheelLeft> <nop>
-" nmap <ScrollWheelRight> <nop>
-" 
-" nmap <C-ScrollWheelUp> <nop>
-" nmap <C-ScrollWheelDown> <nop>
-" nmap <C-ScrollWheelLeft> <nop>
-" nmap <C-ScrollWheelRight> <nop>
-" 
-" nmap <S-ScrollWheelUp> <nop>
-" nmap <S-ScrollWheelDown> <nop>
-" nmap <S-ScrollWheelLeft> <nop>
-" nmap <S-ScrollWheelRight> <nop>
-
+" quick buffer switching
+map <leader>n :bn<CR>
+map <leader>p :bp<CR>
 
 " quick pairs
 imap <leader>' ''<ESC>i
