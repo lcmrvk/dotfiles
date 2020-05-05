@@ -1,4 +1,5 @@
-
+" Enable syntax highlighting
+syntax enable
 
 " Set mouse so that it doesn't scroll the cursor but the screen
 " Note: There are setting in "~/.vim/startup/mappings.vim" which unmap any mouse
