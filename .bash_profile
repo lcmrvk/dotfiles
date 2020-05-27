@@ -74,3 +74,11 @@ alias d='docker'
 
 # ranger shortcut
 alias rr='ranger --choosedir=$HOME/.rangerdir; LASTDIR=`cat $HOME/.rangerdir`; cd "$LASTDIR"'
+
+# use vim to view man pages
+## this is used for BSD man
+#export MANPAGER="col -b | vim -c 'set ft=man ts=8 nomod nolist nonu noma' -"
+
+## this is used for GNU man
+export MANPAGER="/bin/sh -c "col -b | vim -c 'set ft=man ts=8 nomod nolist nonu noma' -""""
+
