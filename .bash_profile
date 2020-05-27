@@ -80,5 +80,5 @@ alias rr='ranger --choosedir=$HOME/.rangerdir; LASTDIR=`cat $HOME/.rangerdir`; c
 #export MANPAGER="col -b | vim -c 'set ft=man ts=8 nomod nolist nonu noma' -"
 
 ## this is used for GNU man
-export MANPAGER="/bin/sh -c "col -b | vim -c 'set ft=man ts=8 nomod nolist nonu noma' -""""
+export MANPAGER="/bin/sh -c \"col -b | vim -c 'set ft=man ts=8 nomod nolist nonu noma' -\""
 
