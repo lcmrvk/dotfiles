@@ -37,3 +37,9 @@ source ~/.vim/startup/color.vim
 source ~/.vim/startup/settings.vim
 source ~/.vim/startup/mappings.vim
 source ~/.vim/startup/custom_commands.vim
+
+" ~~~~~~~~~~ Colemak layout settings ~~~~~~~~~~
+let kb_colemak = system('setxkbmap -query | grep -qi colemak')
+if kb_colemak == 0
+	call SetColemakLayout()
+endif
