@@ -1,6 +1,11 @@
 " set mouse support
 set mouse=a
 
+" if for 100ms, nothing is written to the buffer, the swapfile is written
+" however, this also influences how fast the gitgutter plugin show new chages,
+" deletions etc.
+set updatetime=100
+
 " tab complete vim commands
 set wildmenu
 
