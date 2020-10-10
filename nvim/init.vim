@@ -1,6 +1,6 @@
 " Install plugins
 " ---------------
-call plug#begin('~/.config/nvim/plugged')
+call plug#begin('~/.config/nvim/plugged/p')
 
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'deoplete-plugins/deoplete-jedi'
