@@ -15,6 +15,7 @@ Plug 'dense-analysis/ale'
 Plug 'vim-airline/vim-airline'
 Plug 'airblade/vim-gitgutter'
 Plug 'cloudhead/neovim-fuzzy'
+Plug 'jsfaint/gen_tags.vim'
 
 " Colorschemes
 " ------------
