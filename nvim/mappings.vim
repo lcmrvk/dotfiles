@@ -1,8 +1,12 @@
 " map window switching to vim keys
 nnoremap <C-J> <C-W>j
+nnoremap <C-down> <C-W>j
 nnoremap <C-K> <C-W>k
+nnoremap <C-up> <C-W>k
 nnoremap <C-L> <C-W>l
+nnoremap <C-right> <C-W>l
 nnoremap <C-H> <C-W>h
+nnoremap <C-left> <C-W>h
 
 " quick buffer switching
 map <leader>n :bn<CR>
