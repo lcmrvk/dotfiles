@@ -79,3 +79,7 @@ set wildmode=list:longest,full
 " Look for a tags file in the directory of the current file, in the current directory
 " and up until $HOME, stopping on the first hit.
 set tags=./tags,tags;$HOME
+
+" cursorline should be visible only in the active buffer
+autocmd BufEnter * setlocal cursorline
+autocmd BufLeave * setlocal nocursorline
