@@ -14,6 +14,7 @@ Plug 'pechorin/any-jump.vim'
 Plug 'dense-analysis/ale'
 Plug 'vim-airline/vim-airline'
 Plug 'airblade/vim-gitgutter'
+Plug 'cloudhead/neovim-fuzzy'
 
 " Colorschemes
 " ------------
@@ -34,3 +35,4 @@ source ~/.config/nvim/color.vim
 source ~/.config/nvim/plugged/config/deoplete.vim
 source ~/.config/nvim/plugged/config/jedi.vim
 source ~/.config/nvim/plugged/config/nerdtree.vim
+source ~/.config/nvim/plugged/config/neovim-fuzzy.vim
