@@ -24,3 +24,6 @@ vnoremap > >gv
 
 " Source `.vimrc` to load in changes
 nnoremap <leader>sr :source ~/.config/nvim/init.vim<cr>
+
+" Toggle spell check.
+map <F3> :setlocal spell!<CR>
