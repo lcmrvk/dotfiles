@@ -57,3 +57,6 @@ function! MaximizeToggle()
 endfunction
 
 nnoremap <C-W>m :call MaximizeToggle()<CR>
+
+" Exit back to normal mode from nvim terminal easier
+tnoremap <Esc> <C-\><C-n>
