@@ -4,6 +4,7 @@ call plug#begin('~/.config/nvim/plugged/p')
 
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'deoplete-plugins/deoplete-jedi'
+Plug 'deoplete-plugins/deoplete-dictionary'
 Plug 'preservim/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'tpope/vim-surround'
@@ -34,6 +35,7 @@ source ~/.config/nvim/color.vim
 " Source plugin specific config files
 " -----------------------------------
 source ~/.config/nvim/plugged/config/deoplete.vim
+source ~/.config/nvim/plugged/config/deoplete-dectionary.vim
 source ~/.config/nvim/plugged/config/jedi.vim
 source ~/.config/nvim/plugged/config/nerdtree.vim
 source ~/.config/nvim/plugged/config/neovim-fuzzy.vim
