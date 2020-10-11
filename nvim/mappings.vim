@@ -37,3 +37,23 @@ nmap <S-A-right> :vertical-resize +1<CR>
 nmap <S-A-left> :vertical-resize -1<CR>
 nmap <S-A-up> :resize +1<CR>
 nmap <S-A-down> :resize -1<CR>
+
+" functionality to maximize one split and toggle back to the original splits
+" layout
+function! MaximizeToggle()
+  if exists("s:maximize_session")
+    exec "source " . s:maximize_session
+    call delete(s:maximize_session)
+    unlet s:maximize_session
+    let &hidden=s:maximize_hidden_save
+    unlet s:maximize_hidden_save
+  else
+    let s:maximize_hidden_save = &hidden
+    let s:maximize_session = tempname()
+    set hidden
+    exec "mksession! " . s:maximize_session
+    only
+  endif
+endfunction
+
+nnoremap <C-W>m :call MaximizeToggle()<CR>
