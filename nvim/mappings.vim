@@ -60,3 +60,11 @@ nnoremap <C-W>m :call MaximizeToggle()<CR>
 
 " Exit back to normal mode from nvim terminal easier
 tnoremap <Esc> <C-\><C-n>
+
+" Copy to clipboard
+nnoremap  <leader>yy  "+yy
+vnoremap  <leader>y  "+y
+
+" Paste from clipboard
+nnoremap <leader>p "+p
+vnoremap <leader>p "+p
