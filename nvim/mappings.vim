@@ -68,3 +68,8 @@ vnoremap  <leader>y  "+y
 " Paste from clipboard
 nnoremap <leader>p "+p
 vnoremap <leader>p "+p
+
+" quickly close all buffers (with/without force)
+nnoremap <leader>q :bufdo :q<CR>
+nnoremap <leader>Q :bufdo! :q<CR>
+
