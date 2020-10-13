@@ -9,8 +9,8 @@ nnoremap <C-H> <C-W>h
 nnoremap <C-left> <C-W>h
 
 " quick buffer switching
-map <leader>n :bn<CR>
-map <leader>p :bp<CR>
+nnoremap <leader>] :bn<CR>
+nnoremap <leader>[ :bp<CR>
 
 " quick pairs
 imap <leader>' ''<ESC>i
