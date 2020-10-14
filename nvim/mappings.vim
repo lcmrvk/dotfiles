@@ -71,5 +71,5 @@ vnoremap <leader>p "+p
 
 " quickly close all buffers (with/without force)
 nnoremap <leader>q :bufdo :q<CR>
-nnoremap <leader>Q :bufdo! :q<CR>
+nnoremap <leader>Q :bufdo! :q!<CR>
 
