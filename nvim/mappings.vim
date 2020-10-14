@@ -73,3 +73,5 @@ vnoremap <leader>p "+p
 nnoremap <leader>q :bufdo :q<CR>
 nnoremap <leader>Q :bufdo! :q!<CR>
 
+" shortcut to show open buffers
+nnoremap <leader>bb :buffers<CR>
