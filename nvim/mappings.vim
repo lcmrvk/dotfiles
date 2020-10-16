@@ -75,3 +75,12 @@ nnoremap <leader>Q :bufdo! :q!<CR>
 
 " shortcut to show open buffers
 nnoremap <leader>bb :buffers<CR>
+
+" create a named temporary file
+function! NewTempNamedFile()
+    let s:new_temp_file_name = tempname()
+    exec "new"
+    exec "w" . s:new_temp_file_name
+endfunction
+
+nnoremap <leader>nt :call NewTempNamedFile()<CR>
