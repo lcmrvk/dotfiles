@@ -84,3 +84,12 @@ function! NewTempNamedFile()
 endfunction
 
 nnoremap <leader>nt :call NewTempNamedFile()<CR>
+
+" run python script from within neovim
+let g:python_scipt_cmd_args = "eqweqeqe"
+function! ExecPythonFile()
+    let s:command = "!python3  % " . g:python_scipt_cmd_args
+    exec s:command
+endfunction
+
+nnoremap <leader>p3 :call ExecPythonFile()<CR>
