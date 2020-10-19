@@ -33,8 +33,8 @@ nnoremap <leader>sr :source ~/.config/nvim/init.vim<cr>
 map <F3> :setlocal spell!<CR>
 
 " Key bindings for faster splits resizing
-nmap <S-A-right> :vertical-resize +1<CR>
-nmap <S-A-left> :vertical-resize -1<CR>
+nmap <S-A-right> :vertical resize +1<CR>
+nmap <S-A-left> :vertical resize -1<CR>
 nmap <S-A-up> :resize +1<CR>
 nmap <S-A-down> :resize -1<CR>
 
