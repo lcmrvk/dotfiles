@@ -108,3 +108,15 @@ function! OpenManPageCommandUnderCursor()
 endfunction
 
 nnoremap <leader>man :call OpenManPageCommandUnderCursor()<CR>
+
+" set shift-backspace to delete the previous word
+function! DeletePreviousWord()
+    let s:char_before_cursor = expand('<cword>')
+    if s:char_before_cursor == ''
+        exec "normal! x"
+    endif
+    exec "normal! ciw"
+endfunction
+
+nnoremap <leader><BS> :call DeletePreviousWord()<CR>
+
