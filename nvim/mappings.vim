@@ -93,3 +93,18 @@ function! ExecPythonFile()
 endfunction
 
 nnoremap <leader>p3 :call ExecPythonFile()<CR>
+
+" open man page of command under cursor
+function! OpenManPageCommandUnderCursor()
+    " get word under cursor
+    let s:command_under_cursor = expand('<cword>')
+    call NewTempNamedFile()
+    " when vim is used for man pages, buffer is set to nomodifiable by default
+    setlocal modifiable
+    exec "r!man " . s:command_under_cursor
+    " delete the extra empty line at the beginning
+    exec ":delete"
+    setlocal syntax=man
+endfunction
+
+nnoremap <leader>man :call OpenManPageCommandUnderCursor()<CR>
