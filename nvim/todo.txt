@@ -1,0 +1,25 @@
+Reasonable and usable code folding
+----------------------------------
+- code folding, ideally with arrow in the gutter that can be mouse clicked
+- it should be possible to fold code with simple key bindings as well,
+  something similar to what JetBrains IDEs have
+
+Jump to symbols in source code
+------------------------------
+- read docs of anyjump and find if I can jump to symbols in file / files from
+  project root directory onward
+- if not find a different way of doing that
+
+Shift-backspace delete whole previous word
+------------------------------------------
+- for now I have a workaround with \-backspace in normal mode
+
+Script for autoinstall of dotfiles on new systems
+-------------------------------------------------
+- running one script should install everything necessary
+
+Clean up project a bit
+----------------------
+- .vim and .vimrc have accumulated some unnecessary things, clean it up
+- maybe delete all the submodules, and rather download them when installing
+  the same way as I have it for neovim
