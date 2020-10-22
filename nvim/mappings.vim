@@ -120,3 +120,7 @@ endfunction
 
 nnoremap <leader><BS> :call DeletePreviousWord()<CR>
 
+" better navigation through files
+" I can browse a file through faster, while not losing overview
+nnoremap <C-j> 5j
+nnoremap <C-k> 5k
