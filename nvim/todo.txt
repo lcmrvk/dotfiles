@@ -23,3 +23,9 @@ Clean up project a bit
 - .vim and .vimrc have accumulated some unnecessary things, clean it up
 - maybe delete all the submodules, and rather download them when installing
   the same way as I have it for neovim
+
+Add indent guides
+-----------------
+
+Highlight whitespace when selected in visual mode
+-------------------------------------------------
