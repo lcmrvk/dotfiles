@@ -75,10 +75,20 @@ alias d='docker'
 # ranger shortcut
 alias rr='ranger --choosedir=$HOME/.rangerdir; LASTDIR=`cat $HOME/.rangerdir`; cd "$LASTDIR"'
 
+# aliases for nvim / vim
+alias vim='nvim'
+alias vi='nvim'
+alias nv='nvim'
+alias oldvim='/usr/bin/vim'
+
+# other programs that used vim by default based on one of the variables below
+# should also use nvim by default
+export VISUAL="nvim"
+export EDITOR="nvim"
+
+## this is used for GNU man
+export MANPAGER="/bin/sh -c \"col -b | $EDITOR -c 'set ft=man ts=8 nomod nolist nonu noma' -\""
+
 # use vim to view man pages
 ## this is used for BSD man
 #export MANPAGER="col -b | vim -c 'set ft=man ts=8 nomod nolist nonu noma' -"
-
-## this is used for GNU man
-export MANPAGER="/bin/sh -c \"col -b | vim -c 'set ft=man ts=8 nomod nolist nonu noma' -\""
-
