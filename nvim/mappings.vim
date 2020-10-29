@@ -59,7 +59,7 @@ endfunction
 nnoremap <C-W>m :call MaximizeToggle()<CR>
 
 " Exit back to normal mode from nvim terminal easier
-tnoremap <leader>tt <C-\><C-n>
+tnoremap <leader>tr <C-\><C-n>
 
 " Copy to clipboard
 nnoremap  <leader>yy  "+yy
@@ -124,3 +124,10 @@ nnoremap <leader><BS> :call DeletePreviousWord()<CR>
 " I can browse a file through faster, while not losing overview
 nnoremap <A-j> 5j
 nnoremap <A-k> 5k
+
+" quick tab manipulations
+nnoremap <leader>tn :tabnew<CR>
+nnoremap <leader>tC :tabclose<CR>
+nnoremap <leader>} :tabnext<CR>
+nnoremap <leader>{ :tabprevious<CR>
+nnoremap <leader>tt :tabs<CR>
