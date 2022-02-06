@@ -38,3 +38,6 @@
 	path = .vim/bundle/vim-surround
 	url = https://github.com/tpope/vim-surround.git
 	branch = master
+[submodule "zsh/plugins/zsh-autosuggestions"]
+	path = zsh/plugins/zsh-autosuggestions
+	url = git@github.com:zsh-users/zsh-autosuggestions.git
