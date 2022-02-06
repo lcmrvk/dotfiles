@@ -26,6 +26,7 @@ alias gs='git status'
 alias gl='git log'
 alias gd='git diff'
 alias gb='git branch'
+alias gbc='git branch --show-current'
 
 # ranger shortcut
 ranger_cd() {
