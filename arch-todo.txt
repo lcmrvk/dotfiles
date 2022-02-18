@@ -1,0 +1,144 @@
+# Apps to install
+
+
+- dropbox
+    - https://wiki.archlinux.org/title/dropbox#Autostart_on_login_with_systemd
+    - https://aur.archlinux.org/packages/dropbox
+
+# Other
+
+- HiDPI
+    - https://www.qt.io/blog/2016/01/26/high-dpi-support-in-qt-5-6 
+    - https://wiki.archlinux.org/title/HiDPI#Qt_5
+    - https://wiki.archlinux.org/title/HiDPI#GDK_3_(GTK_3)
+    - https://wiki.archlinux.org/title/HiDPI#Xfce
+    - file: ~/.profile:
+        #export QT_AUTO_SCREEN_SCALE_FACTOR=0
+        #export QT_SCREEN_SCALE_FACTORS=2
+        #export QT_AUTO_SCREEN_SCALE_FACTOR=1
+        #QT_SCALE_FACTOR=2
+        #QT_SCREEN_SCALE_FACTORS=eDP=2;HDMI-A-0=2;
+        #export QT_SCALE_FACTOR=2
+        #export QT_FONT_DPI=96
+
+
+- power manager
+    - sleep
+    - hibernate
+    - display power manager -> nevypinat displej ak sa mi prehrava nejake vide, napr netflix
+    - megavideo sync
+
+- preniest karty vo firefox
+
+- touchpad gestures
+    - https://www.youtube.com/watch?v=suPJmIm-tNI
+    - https://www.youtube.com/watch?v=RovI4g-x5d4
+    - https://wiki.archlinux.org/title/touchegg
+    - https://wiki.archlinux.org/title/Touchpad_Synaptics#Xfce4/Cinnamon
+    - https://wiki.archlinux.org/title/libinput#Gestures
+
+- xfce customizations
+    - https://www.youtube.com/watch?v=29ARF14InaU
+    - https://www.xfce-look.org/browse/
+
+- Arch setup
+    - https://wiki.archlinux.org/title/List_of_applications#Internet
+    - https://wiki.archlinux.org/title/General_recommendations#System_administration
+    - https://www.linuxfordevices.com/tutorials/linux/pacman-package-manager
+    - https://www.maketecheasier.com/aur-helpers-for-arch-linux/
+
+- ZSH
+    - https://zsh.sourceforge.io/Intro/intro_toc.html
+
+================================================================================
+
+- pozriet stranky cez ktore pozerat genossenschaft
+- pozriet bautragerov - rozdelit si ich
+- pozriet pri pandorfe bytovky - slovenska firma stavia
+    - podmienky napisat druzstvu
+- ako funguju forderungy v rakusku
+    - ake typy
+    - kde mame na to narok
+- popozerat po veceroch tento tyzden - 7-14 februar
+
+
+# Clanky byvanie rakusko
+
+- https://www.google.com/search?q=narok+na+podporu+byvania+rakusko&client=firefox-b-d&ei=nBwAYtz9MPWSxc8P-c2hyAY&start=10&sa=N&ved=2ahUKEwjcu96k4-v1AhV1SfEDHflmCGkQ8NMDegQIARBU&biw=1872&bih=937&dpr=2
+- https://dennikn.sk/blog/1161981/ako-byvaju-mladi-rakusania-v-najomnych-bytoch-za-400-eur-mesacne/
+- https://domadoma.sk/byvanie-v-rakusku/
+
+
+================================================================================
+
+Arch instalacia
+---------------
+
+packages:
+
+    Base install:
+        - base
+        - base-devel
+        - linux
+        - linux-firmware
+        - network-manager
+        - efibootmgr
+        - grub
+        - xf86-video-amdgpu
+        - amd-ucode
+
+    After install:
+        - xorg
+        - xfce4
+        - xfce4-goodies
+        - zip
+        - unzip
+        - tar
+        - unrar
+        - file-roller
+        - blueman
+        - bluezutils
+        - caprine
+        - docker
+        - signal-desktop
+        - firefox 
+        - network-manager-applet
+        - mugshot
+        - okular
+        - pulseaudio
+        - ranger
+        - terminator
+        - ttf-jetbrains-mono
+        - yay
+        - zsh
+        - libreoffice
+        - tig
+        - dropbox
+            -  python-gpgme # has to be installed manually as of 02/2022
+        - visual-studio-code-bin
+        - spotify
+        - noto-fonts
+        - noto-fonts-emoji
+        - ttf-liberation
+        - font-manager
+        - redshift
+        - oh-my-zsh
+        - archlinux-contrib
+        - pacman-contrib
+        - wget
+        - qalculate-gtk
+        - gvfs
+        - caffeine-ng
+        - transmission-gtk
+        - https://mega.nz/desktop
+        - https://github.com/bimlas/xfce4-night-mode
+        - https://wiki.archlinux.org/title/Dark_mode_switching
+        - https://docs.xfce.org/xfce/thunar/using-removable-media#managing_removable_drives_and_media
+
+settings:
+    - TODO:
+        - add xfce settings to dotfiles
+    create 2 panels
+        - on top
+        - on the left
+        - set scaling for hidpi displays
