@@ -39,3 +39,6 @@ ranger_cd() {
 }
 
 alias rr='ranger_cd'
+
+zstyle ':completion:*:*:docker:*' option-stacking yes
+zstyle ':completion:*:*:docker-*:*' option-stacking yes

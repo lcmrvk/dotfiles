@@ -77,6 +77,7 @@ plugins=(
 	git
 	git-extras
 	colored-man-pages
+    docker
 	zsh-autosuggestions
 )
 
