@@ -50,27 +50,6 @@
 - ZSH
     - https://zsh.sourceforge.io/Intro/intro_toc.html
 
-================================================================================
-
-- pozriet stranky cez ktore pozerat genossenschaft
-- pozriet bautragerov - rozdelit si ich
-- pozriet pri pandorfe bytovky - slovenska firma stavia
-    - podmienky napisat druzstvu
-- ako funguju forderungy v rakusku
-    - ake typy
-    - kde mame na to narok
-- popozerat po veceroch tento tyzden - 7-14 februar
-
-
-# Clanky byvanie rakusko
-
-- https://www.google.com/search?q=narok+na+podporu+byvania+rakusko&client=firefox-b-d&ei=nBwAYtz9MPWSxc8P-c2hyAY&start=10&sa=N&ved=2ahUKEwjcu96k4-v1AhV1SfEDHflmCGkQ8NMDegQIARBU&biw=1872&bih=937&dpr=2
-- https://dennikn.sk/blog/1161981/ako-byvaju-mladi-rakusania-v-najomnych-bytoch-za-400-eur-mesacne/
-- https://domadoma.sk/byvanie-v-rakusku/
-
-
-================================================================================
-
 Arch instalacia
 ---------------
 
