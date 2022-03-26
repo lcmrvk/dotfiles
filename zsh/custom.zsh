@@ -40,5 +40,12 @@ ranger_cd() {
 
 alias rr='ranger_cd'
 
+# https://github.com/docker/cli/issues/2625
 zstyle ':completion:*:*:docker:*' option-stacking yes
 zstyle ':completion:*:*:docker-*:*' option-stacking yes
+
+if grep "Arch Linux" /etc/os-release > /dev/null ; then
+    export QT_AUTO_SCREEN_SCALE_FACTOR=0
+    export QT_SCALE_FACTOR=2
+fi
+
