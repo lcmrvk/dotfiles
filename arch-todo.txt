@@ -79,6 +79,7 @@ packages:
         - bluezutils
         - caprine
         - docker
+        - docker-compose
         - signal-desktop
         - firefox 
         - network-manager-applet
@@ -109,6 +110,15 @@ packages:
         - gvfs
         - caffeine-ng
         - transmission-gtk
+        - cups
+        - avahi (https://wiki.archlinux.org/title/Avahi#Installation)
+        - nss-mdns
+        - vlc
+        - tor
+        - torbrowser-launcher
+        - pdfarranger
+        - rst2pdf
+        - diffpdf
         - https://mega.nz/desktop
         - https://github.com/bimlas/xfce4-night-mode
         - https://wiki.archlinux.org/title/Dark_mode_switching
